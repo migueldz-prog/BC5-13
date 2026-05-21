@@ -1,0 +1,11 @@
+BC5-13 - Validación de dirección
+
+Se pide rellenar un campo de dirección con dos tipos de respuesta segun si está relleno o no.
+
+Creo un TextField con su label pidiendo la direccion. Se crea un boton con un setOnAction que validara si el campo isEmpty, 
+entonces sacara Alert.AlertType.WARNING pidiendo que de una direccion.
+
+Si al contrario si este rellenado el campo pues saldra otro aviso distinto Alert.AlertType.INFORMATION, confirmando que has 
+rellenado el campo y sacando un nuevo label con el valor introducido usando getText sobre el field pedido a rellenar.
+
+Se ordena todo para tenga sentido con vbox y se muestra en le scene creada asignandola a la ventana.
